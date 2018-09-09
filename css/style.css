@@ -1,37 +1,9 @@
-.counterList {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+.counterList { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-pack: center; justify-content: center; }
 
-.counter {
-  padding: 10px;
-  text-align: center;
-  background-color: bisque;
-  border-radius: 10px;
-  width: 150px;
-  margin: 20px;
-}
+.counterItem { padding: 10px; text-align: center; background-color: bisque; border-radius: 10px; width: 150px; margin: 20px; }
 
-.counter span {
-  display: block;
-  margin-bottom: 10px;
-}
+.counterItem button { display: block; width: 100px; margin: 0 auto 7px; background-color: white; border: none; border-radius: 5px; padding: 5px; transition-duration: 0.7s; cursor: pointer; }
 
-.counter button {
-  display: block;
-  width: 100px;
-  margin: 0 auto 7px;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 5px;
-  transition-duration: 0.7s;
-  cursor: pointer;
-}
+.counterItem button:hover { background-color: #fdcd91; }
 
-.counter button:hover {
-  background-color: #fdcd91;
-}
-
-/*# sourceMappingURL=style.css.map */
+.counter { display: block; margin-bottom: 10px; }

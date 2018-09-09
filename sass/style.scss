@@ -4,18 +4,13 @@
     justify-content: center;
 }
 
-.counter {
+.counterItem {
     padding: 10px;
     text-align: center;
     background-color: bisque;
     border-radius: 10px;
     width: 150px;
     margin: 20px;
-
-    span {
-        display: block;
-        margin-bottom: 10px;
-    }
 
     button {
         display: block;
@@ -32,4 +27,9 @@
             background-color: rgb(253, 205, 145);
         }
     }
+}
+
+.counter {
+    display: block;
+    margin-bottom: 10px;
 }
